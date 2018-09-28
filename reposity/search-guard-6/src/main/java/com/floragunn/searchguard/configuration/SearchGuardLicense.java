@@ -52,7 +52,7 @@ public final class SearchGuardLicense implements Writeable {
     private boolean valid = true;
     private String action;
     private String prodUsage;
-    private final ClusterService clusterService; 
+    private final ClusterService clusterService;  
     
     public static SearchGuardLicense createTrialLicense(String issueDate, ClusterService clusterService, String msg) {
         final SearchGuardLicense trialLicense =  
